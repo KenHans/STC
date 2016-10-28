@@ -1,0 +1,222 @@
+@import "libs/normalize";
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+$backgroundColor: #fff;
+
+$spacing: 2rem;
+$desktopW: 1080px;
+$links: #fff000;
+$darkgrey: #555;
+$lightgrey: #F2F2F2;
+
+// $breakpoint  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$bp1000: 1000px;
+$bpmobile: 480px;
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background: $backgroundColor;
+}
+body {
+  background: white;
+  min-height: 500px;
+  position: relative;
+}
+
+a {
+  color: $links;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: darken($links, 25%);
+  }
+}
+.jsonfeed 
+.BL a.grow{
+  margin-left: 6px;
+}
+.TR a.grow{
+  margin-right: 6px;
+}
+a{
+  transition: all 0.4s ease;
+  border-color:transparent;
+  border-width:5px;
+  border-style: solid;
+  &.grow{
+    border-color:pink!important;
+  }
+}
+
+// layout  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.outerWrapper{
+  max-width: $desktopW;
+  margin:0 auto;
+}
+#banner{
+  .promo1{
+    position: relative;
+    max-width:680px;
+    float:left;
+    img{
+      max-width: 100%;
+      border:10px solid $lightgrey;
+    }
+    .textwrapper{
+      font-size: 3em;
+    }
+  }
+  .promo2,
+  .promo3{
+    position: relative;
+    max-width:323px;
+    float:left;
+    img{
+      max-width: 100%;
+      border:10px solid $lightgrey;
+      border-width:10px 10px 10px 0 ;
+    }
+    .textwrapper{
+      font-size: 2em;
+      margin: 0 .6em 0 .3em;
+    }
+    
+  }
+  .promo3{
+    margin-top: -13px;
+  }
+  .textwrapper.BL{
+    bottom: 40px;
+    a{
+      position: relative;
+      top: 8px;
+    }
+  }
+   .textwrapper.TR{
+    top: 30px;
+    right: 0;
+    left: auto;
+    width: 50%;
+    a{
+      position: absolute;
+      margin-top: 10px;
+      right: 0;
+    }
+  }
+  .textwrapper{
+    position: absolute;
+    margin: 0 .5em;
+    left: 0;
+    h3{
+      font-family: 'Passion One', cursive;
+      background-color: #fff;
+      font-weight: normal;
+      padding: .25em;
+      opacity: .8;
+      margin:0;
+      font-size:1em;
+    }
+    a {
+      padding: 0.25em;
+      color: #fff;
+      background-color: #ff0000;
+      font-size: .65em;
+      font-family: 'Passion One', cursive;
+      font-weight: normal;
+    }
+  }
+}
+// commonly applied  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.Fl{
+  float:left;
+}
+.Fr{
+  float:right;
+}
+
+.absPos{
+  position: absolute;
+}
+@media screen and (max-width: $bp1000) {
+  .outerWrapper {
+      max-width: 700px;
+  }
+  #banner {
+    .promo3,
+    .promo2 {
+        margin-top: -13px;
+        max-width: 50%;
+    }
+    .promo1 {
+      max-width: 100%;
+    }
+    .promo2 {
+        img{
+        border-width:10px 5px 10px 10px;
+      }
+    }
+    .promo3 {
+        img{
+        border-width:10px 10px 10px 5px;
+      }
+    }
+    a{
+       display: inline-block;
+    }
+    .promo2 .textwrapper{
+      margin: 0 15px 0 20px;
+    }
+    .promo3  .textwrapper{
+      margin: 0 20px 0 15px;
+    }
+  }
+}
+
+@media screen and (max-width: $bpmobile) {
+  .outerWrapper {
+      max-width: 350px;
+  }
+  #banner{
+    .jsonfeed {
+      border: 1px solid #a8a7a7;
+      margin-bottom: 2em;
+    }
+    .textwrapper {
+      position: relative;
+      margin: 0 0 30px;
+      display: block;
+      top: 0 !Important;
+      
+      &.TR {
+        width:auto;
+        a{
+          position: relative;
+          top:0;
+          margin-left:1rem;
+          
+        }
+      }
+       &.BL a{
+        position: relative;
+        bottom:0;
+        margin-left:1rem;
+      }  
+    }
+    .promo3,
+    .promo2 {
+      margin-top: -13px;
+      img{
+        border-width:10px 10px 10px 10px;
+      }
+      .textwrapper {
+        font-size: 3em;
+        margin: 0 0 30px;
+      }
+    }
+    .promo1,
+    .promo2, 
+    .promo3 {
+        max-width: 100%;
+    }
+  }
+}

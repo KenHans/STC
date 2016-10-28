@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STC responsive banner task</title>
+  <link rel="stylesheet" href="css/build/style.css">
+</head>
+<body>
+<div class="outerWrapper">
+	<header>
+		<div id = "banner" class="clearfix">
+			<span class="jsonfeed promo1"></span>
+			<span class="jsonfeed promo2"></span>
+			<span class="jsonfeed promo3"></span>
+		</div>
+	</header>
+</div>
+<script src="js/build/production.js"></script>
+<script>document.write('<script src="http://' + (location.host || 
+	'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 
+'script>')
+$(document).ready(function(){
+	jsonDrivenBanner.init('data/test.json');
+});
+
+
+</script>
+</body>
+</html>

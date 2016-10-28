@@ -1,0 +1,38 @@
+{
+	"heroList": {
+		"heroItems": [
+			{
+				"imageUrl": "main_full.jpg",
+				"smallImg": "main_small.jpg",
+				"headlineText": "SYRIAN CHILDREN NEED YOU",
+				"cta": {
+					"link": "/about-us/emergencies/syria-appeal",
+					"text": "DONATE NOW",
+					"textpos" : "TR"
+				}
+			},
+			{
+				"imageUrl": "sub_two_full.jpg",
+				"smallImg": "sub_two_small.jpg",
+				"headlineText": "PROTECT IRAQ'S CHILDREN",
+				"cta": {
+					"link": "/about-us/emergencies/iraq-crisis",
+					"text": "ACT NOW",
+					"textpos" : "BL"
+				}
+			},
+			{
+				"imageUrl": "sub_one_full.jpg",
+				"smallImg": "sub_one_small.jpg",
+				"headlineText": "NO GIRL IS PROPERTY",
+				"cta": {
+					"link": "/everylastgirl",
+					"text": "HELP SET THEM FREE",
+					"textpos" : "BL"
+				}
+			}
+		]
+	},
+	"baseSite": "/pics/",
+	"numArticles": 3
+}
