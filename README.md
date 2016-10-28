@@ -26,4 +26,5 @@ On resize, the img src is altered.
 Enquire JS would be better employed to 'sniff for page width' - this aspect is not production ready, Rather just a POC. 
 
 The SASS was not written as 'Mobile-first' given that I had no mobile / tablet design. There may be a small number of redundant styles in styles.scss.
+
 If I had been supplied three designs It would hve been easier to code the SASS using 'Mobile-first' approach.

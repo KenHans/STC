@@ -9933,7 +9933,7 @@ var jsonDrivenBanner = {
 };
 
 // Reset when resizing window 
-	$(window).resize(jsonDrivenBanner.resizer);
+$(window).resize(jsonDrivenBanner.resizer);
 
 
 

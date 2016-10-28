@@ -423,130 +423,130 @@ table {
   clear: both;
 }
 
-/* line 14, ../style.scss */
+/* line 16, ../style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 17, ../style.scss */
+/* line 19, ../style.scss */
 html {
   background: #fff;
 }
 
-/* line 20, ../style.scss */
+/* line 22, ../style.scss */
 body {
   background: white;
   min-height: 500px;
   position: relative;
 }
 
-/* line 26, ../style.scss */
+/* line 28, ../style.scss */
 a {
   color: #fff000;
   text-decoration: none;
 }
-/* line 29, ../style.scss */
+/* line 31, ../style.scss */
 a:hover, a:focus {
   color: #807800;
 }
 
-/* line 33, ../style.scss */
+/* line 35, ../style.scss */
 .jsonfeed
 .BL a.grow {
   margin-left: 6px;
 }
 
-/* line 37, ../style.scss */
+/* line 39, ../style.scss */
 .TR a.grow {
   margin-right: 6px;
 }
 
-/* line 40, ../style.scss */
+/* line 42, ../style.scss */
 a {
   transition: all 0.4s ease;
   border-color: transparent;
   border-width: 5px;
   border-style: solid;
 }
-/* line 45, ../style.scss */
+/* line 47, ../style.scss */
 a.grow {
   border-color: pink !important;
 }
 
-/* line 52, ../style.scss */
+/* line 53, ../style.scss */
 .outerWrapper {
   max-width: 1080px;
   margin: 0 auto;
 }
 
-/* line 57, ../style.scss */
+/* line 58, ../style.scss */
 #banner .promo1 {
   position: relative;
   max-width: 680px;
   float: left;
 }
-/* line 61, ../style.scss */
+/* line 62, ../style.scss */
 #banner .promo1 img {
   max-width: 100%;
   border: 10px solid #F2F2F2;
 }
-/* line 65, ../style.scss */
+/* line 66, ../style.scss */
 #banner .promo1 .textwrapper {
   font-size: 3em;
 }
-/* line 69, ../style.scss */
+/* line 70, ../style.scss */
 #banner .promo2,
 #banner .promo3 {
   position: relative;
   max-width: 323px;
   float: left;
 }
-/* line 74, ../style.scss */
+/* line 75, ../style.scss */
 #banner .promo2 img,
 #banner .promo3 img {
   max-width: 100%;
   border: 10px solid #F2F2F2;
   border-width: 10px 10px 10px 0;
 }
-/* line 79, ../style.scss */
+/* line 80, ../style.scss */
 #banner .promo2 .textwrapper,
 #banner .promo3 .textwrapper {
   font-size: 2em;
   margin: 0 .6em 0 .3em;
 }
-/* line 85, ../style.scss */
+/* line 86, ../style.scss */
 #banner .promo3 {
   margin-top: -13px;
 }
-/* line 88, ../style.scss */
+/* line 89, ../style.scss */
 #banner .textwrapper.BL {
   bottom: 40px;
 }
-/* line 90, ../style.scss */
+/* line 91, ../style.scss */
 #banner .textwrapper.BL a {
   position: relative;
   top: 8px;
 }
-/* line 95, ../style.scss */
+/* line 96, ../style.scss */
 #banner .textwrapper.TR {
   top: 30px;
   right: 0;
   left: auto;
   width: 50%;
 }
-/* line 100, ../style.scss */
+/* line 101, ../style.scss */
 #banner .textwrapper.TR a {
   position: absolute;
   margin-top: 10px;
   right: 0;
 }
-/* line 106, ../style.scss */
+/* line 107, ../style.scss */
 #banner .textwrapper {
   position: absolute;
   margin: 0 .5em;
   left: 0;
 }
-/* line 110, ../style.scss */
+/* line 111, ../style.scss */
 #banner .textwrapper h3 {
   font-family: 'Passion One', cursive;
   background-color: #fff;
@@ -556,7 +556,7 @@ a.grow {
   margin: 0;
   font-size: 1em;
 }
-/* line 119, ../style.scss */
+/* line 120, ../style.scss */
 #banner .textwrapper a {
   padding: 0.25em;
   color: #fff;
@@ -566,109 +566,109 @@ a.grow {
   font-weight: normal;
 }
 
-/* line 130, ../style.scss */
+/* line 131, ../style.scss */
 .Fl {
   float: left;
 }
 
-/* line 133, ../style.scss */
+/* line 134, ../style.scss */
 .Fr {
   float: right;
 }
 
-/* line 137, ../style.scss */
+/* line 138, ../style.scss */
 .absPos {
   position: absolute;
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 141, ../style.scss */
+  /* line 142, ../style.scss */
   .outerWrapper {
     max-width: 700px;
   }
 
-  /* line 145, ../style.scss */
+  /* line 146, ../style.scss */
   #banner .promo3,
   #banner .promo2 {
     margin-top: -13px;
     max-width: 50%;
   }
-  /* line 150, ../style.scss */
+  /* line 151, ../style.scss */
   #banner .promo1 {
     max-width: 100%;
   }
-  /* line 154, ../style.scss */
+  /* line 155, ../style.scss */
   #banner .promo2 img {
     border-width: 10px 5px 10px 10px;
   }
-  /* line 159, ../style.scss */
+  /* line 160, ../style.scss */
   #banner .promo3 img {
     border-width: 10px 10px 10px 5px;
   }
-  /* line 163, ../style.scss */
+  /* line 164, ../style.scss */
   #banner a {
     display: inline-block;
   }
-  /* line 166, ../style.scss */
+  /* line 167, ../style.scss */
   #banner .promo2 .textwrapper {
     margin: 0 15px 0 20px;
   }
-  /* line 169, ../style.scss */
+  /* line 170, ../style.scss */
   #banner .promo3 .textwrapper {
     margin: 0 20px 0 15px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 176, ../style.scss */
+  /* line 177, ../style.scss */
   .outerWrapper {
     max-width: 350px;
   }
 
-  /* line 180, ../style.scss */
+  /* line 181, ../style.scss */
   #banner .jsonfeed {
     border: 1px solid #a8a7a7;
     margin-bottom: 2em;
   }
-  /* line 184, ../style.scss */
+  /* line 185, ../style.scss */
   #banner .textwrapper {
     position: relative;
     margin: 0 0 30px;
     display: block;
     top: 0 !Important;
   }
-  /* line 190, ../style.scss */
+  /* line 191, ../style.scss */
   #banner .textwrapper.TR {
     width: auto;
   }
-  /* line 192, ../style.scss */
+  /* line 193, ../style.scss */
   #banner .textwrapper.TR a {
     position: relative;
     top: 0;
     margin-left: 1rem;
   }
-  /* line 199, ../style.scss */
+  /* line 200, ../style.scss */
   #banner .textwrapper.BL a {
     position: relative;
     bottom: 0;
     margin-left: 1rem;
   }
-  /* line 205, ../style.scss */
+  /* line 206, ../style.scss */
   #banner .promo3,
   #banner .promo2 {
     margin-top: -13px;
   }
-  /* line 208, ../style.scss */
+  /* line 209, ../style.scss */
   #banner .promo3 img,
   #banner .promo2 img {
     border-width: 10px 10px 10px 10px;
   }
-  /* line 211, ../style.scss */
+  /* line 212, ../style.scss */
   #banner .promo3 .textwrapper,
   #banner .promo2 .textwrapper {
     font-size: 3em;
     margin: 0 0 30px;
   }
-  /* line 216, ../style.scss */
+  /* line 217, ../style.scss */
   #banner .promo1,
   #banner .promo2,
   #banner .promo3 {
