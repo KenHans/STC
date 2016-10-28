@@ -1,0 +1,7 @@
+https://github.com/KenHans/whitbread/commits/master
+Foursquare API Test by Ken Hansard, ken@e-cc.org
+Set up bit bucket
+git status, 
+git add, 
+git commit -m "message text",  
+git push
